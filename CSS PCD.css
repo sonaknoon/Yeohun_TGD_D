@@ -282,7 +282,7 @@ body {
 }
 
 a, a:hover, a:focus {
-    color: #808080;
+    color: #fff;
 }
 
 element.style {
@@ -292,9 +292,126 @@ element.style {
 
 
 /* 게시글 본문 */
+#article-info {
+    background: #151515;
+    border: 2px solid #5D5D5D;
+}
+
+#article-content-wrapper>.header {
+    border-bottom: 2px solid #5D5D5D;
+}
+
+#article-content-wrapper {
+    background: #151515;
+    border: 2px solid #5D5D5D;
+}
+
+#article-content-wrapper>.footer {
+    border-top: 2px solid #5D5D5D;
+    border-bottom: 2px solid #5D5D5D;
+    background: #151515;
+}
+
+#article-content-wrapper>.vote-area {
+    border-left: 1px solid #151515;
+    border-right: 1px solid #151515;
+}
+
+
 
 
 /* 댓글 부분 */
+
+#article-reply-area {
+    background: #151515;
+    border: 2px solid #5D5D5D;
+}
+
+#article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply {
+    border: 1px solid #5D5D5D;
+}
+
+#article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply > .reply-header {
+    background: #000000;
+}
+
+#article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
+    border-bottom: 1px solid #5D5D5D;
+}
+
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply > .reply-header > .reply-writer.logged {
+    color: #fff;
+}
+
+#article-reply-area > .header h5 {
+    color: #fff;
+}
+
+/* 하단 이전글 다음글 */
+#article-neighbor-list {
+    border: 2px solid #5d5d5d;
+    background: #151515;
+}
+
+#article-neighbor-list>div>a, #article-neighbor-list>div>span.indicator, #article-neighbor-list>div>span.author {
+    color: #fff;
+}
+
+#article-neighbor-list>div:hover {
+	background:#000;
+}
+
+
+
+/* 댓글 작성 폼 */
+.fr-toolbar {
+    background: #000;
+}
+
+.fr-element {
+    background: #151515;
+    border: solid 1px #5d5d5d;
+}
+
+.fr-popup, .fr-toolbar.fr-top {
+    border: 1px solid #5d5d5d;
+    border-top: 3px solid #5d5d5d;
+}
+
+.fr-toolbar .fr-command.fr-btn, .fr-popup .fr-command.fr-btn {
+    color: #fff;
+}
+
+.fr-box.fr-basic .fr-element {
+    color: #fff;
+}
+
+.fr-desktop .fr-command:hover, .fr-desktop .fr-command:focus, .fr-desktop .fr-command.fr-btn-hover, .fr-desktop .fr-command.fr-expanded {
+    background: #5d5d5d;
+}
+
+.fr-separator {
+    background: #5d5d5d
+}
+
+.fr-command.fr-btn.fr-options.fr-btn-hover, .fr-command.fr-btn.fr-options:hover, .fr-command.fr-btn.fr-options:focus {
+    border-left: solid 1px #000;
+}
+
+.fr-toolbar .fr-command.fr-btn.fr-dropdown::after, .fr-popup .fr-command.fr-btn.fr-dropdown::after {
+    border-top: 4px solid #fff;
+}
+
+#article-reply-area #reply-real-area .reply.active, #article-reply-area #reply-best-area .reply.active {
+    background-color: #000;
+}
+
+.fr-command.fr-btn+.fr-dropdown-menu .fr-dropdown-wrapper {
+    background: #000;
+    color: #fff;
+}
+
+
 
 
  }
