@@ -148,8 +148,8 @@ header #right-search-form>#right-search-btn {
 
 
 /* 카테고리 */
-#article-list > #article-list-category > a[href="/y_yeohun?category=34279837"],
-#article-list > #article-list-category > a[href="/y_yeohun?category=34279837"]:hover {
+#article-list > #article-list-category > a[href="/y_yeohun?category=34280854"],
+#article-list > #article-list-category > a[href="/y_yeohun?category=34280854"]:hover {
     filter: grayscale(100%);
 }
 
