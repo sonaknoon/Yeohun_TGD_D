@@ -292,16 +292,13 @@ element.style {
 }
 
 #article-content-wrapper {
+    background: #151515;
+    border: 2px solid #5D5D5D;
 	border-bottom: 1px;
 }
 
 #article-content-wrapper>.header {
     border-bottom: 2px solid #5D5D5D;
-}
-
-#article-content-wrapper {
-    background: #151515;
-    border: 2px solid #5D5D5D;
 }
 
 #article-content-wrapper>.footer {
