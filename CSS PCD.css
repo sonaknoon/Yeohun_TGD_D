@@ -126,13 +126,23 @@ header #right-search-form>#right-search-btn {
     color: #fff;
 }
 
+#board-info h1>a:hover, #board-info h1>a:focus {
+	color : #5d5d5d;
+}
+
 #board-info #board-info-bottom a {
     color: #c7c7c7;
+}
+
+#board-info>#board-info-bottom>:hover {
+    color: #5d5d5d;
 }
 
 #board-info #viewers-area, #board-info #score-area {
     color: #c7c7c7;
 }
+
+
 
 
 
