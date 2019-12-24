@@ -230,6 +230,12 @@ span.a-badge i.fa.fa-info-circle {
 	background-color: #3e3e3e;
 }
 
+#writerContextMenu {
+    background: #000;
+}
+
+
+
 
 
 /* 게시글 리스트 하단 */
