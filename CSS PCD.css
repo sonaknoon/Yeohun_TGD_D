@@ -467,4 +467,16 @@ element.style {
 }
 
 
+/* 측면 광고 영역 */
+#main-menu > div:nth-child(2) {
+	border: 2px solid #5d5d5d;
+    width: 180px;
+}
+
+/* 상단 광고 영역 */
+#article-list > div:nth-child(3) {
+	background: #000000 !important ;
+}
+
+
  }
