@@ -459,6 +459,13 @@ element.style {
     z-index: 3;
 }
 
+#comment-write-form > 
+div.fr-box.fr-ltr.fr-basic.fr-top > 
+div.fr-toolbar.fr-ltr.fr-desktop.fr-top.fr-basic.fr-sticky-off > 
+div.fr-popup.fr-desktop.fr-ltr.emoticons {
+	background: #000;
+}
+
 
 
 /* 점프버튼 */
