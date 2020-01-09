@@ -2,15 +2,17 @@
 
 /* 트게더 다크 모드 */
 
-@media  (min-aspect-ratio:130/100) and (max-aspect-ratio:140/100) /*(min-width:320px) and (max-width:1400px)*/ , (prefers-color-scheme: dark)  /*140 97*/
+@media (min-aspect-ratio:130/100) and (max-aspect-ratio:140/100), (prefers-color-scheme: dark) /* 기존값 (min-width:320px) and (max-width:1400px) */ 
  {
 	:root {
-    --bgColor: #202020;
-    --logoURL: url(https://cdn.discordapp.com/attachments/610065145858621461/646605875502514177/N_PC_nt.png); 
-    --logoWidth: 320px;
-    --before: "밤하늘에 늑대별 ";
-    --after: "개";
-    --bannerurl: url(https://cdn.discordapp.com/attachments/659060204247318528/659368951247142953/caba19c4cebc98ed.png);
+        --Dblackcolor: #151515 ;
+        --Dlinecolor: #5d5d5d ;
+        --bgColor: #202020;
+        --logoURL: url(https://cdn.discordapp.com/attachments/610065145858621461/646605875502514177/N_PC_nt.png); 
+        --logoWidth: 320px;
+        --before: "밤하늘에 늑대별 ";
+        --after: "개";
+        --bannerurl: url(https://cdn.discordapp.com/attachments/659060204247318528/659368951247142953/caba19c4cebc98ed.png);
 }
 
 
