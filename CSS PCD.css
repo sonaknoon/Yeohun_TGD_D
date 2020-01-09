@@ -2,7 +2,7 @@
 
 /* 트게더 다크 모드 */
 
-@media /*not handheld and*/ /* (max-aspect-ratio:140/97) */ (min-width:320px) and (max-width:1400px) , (prefers-color-scheme: dark) /*140 97*/
+@media not handheld, /* (max-aspect-ratio:140/97) */ (min-width:320px) and (max-width:1400px) , (prefers-color-scheme: dark)  /*140 97*/
  {
 	:root {
     --bgColor: #202020;
