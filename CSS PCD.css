@@ -2,7 +2,7 @@
 
 /* 트게더 다크 모드 */
 
-@media (min-aspect-ratio:130/100) and (max-aspect-ratio:140/100), (prefers-color-scheme: dark) /* 기존값 (min-width:320px) and (max-width:1400px) */ 
+@media (min-aspect-ratio:13/10) and (max-aspect-ratio:14/10), (prefers-color-scheme: dark) /* 기존값 (min-width:320px) and (max-width:1400px) */ 
  {
 	:root {
         --Dblackcolor: #151515 ;
