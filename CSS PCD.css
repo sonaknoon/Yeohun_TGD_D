@@ -2,7 +2,7 @@
 
 /* 트게더 다크 모드 */
 
-@media (min-width:320px) and (max-width:1400px), (prefers-color-scheme: dark)
+@media /*not handheld and*/ (max-aspect-ratio:140/97) /*(min-width:320px) and (max-width:1400px)*/ , (prefers-color-scheme: dark) /*140 97*/
  {
 	:root {
     --bgColor: #202020;
@@ -345,6 +345,46 @@ element.style {
     border-right: 1px solid #151515;
 }
 
+/* 투표 창 */
+.panel-success {
+    border-color: #5d5d5d;
+}
+
+.panel-success>.panel-heading {
+    color: #fff;
+    background-color: #000;
+    border-color: #5d5d5d;
+}
+
+.panel-body {
+    background: #151515;
+}
+
+#choiceList {
+	background: #151515;
+}
+
+.list-group-item {
+    background-color: #151515;
+    border: 1px solid #5d5d5d;
+}
+
+.panel-footer {
+    background-color: #2f2f2f;
+    border-top: 1px solid #5d5d5d;
+}
+
+.alertify .alert>*, 
+.alertify .dialog>* {
+    background: #000;
+}
+
+.alertify .alert nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button), 
+.alertify .dialog nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button) {
+    color: #fff;
+    border: 1px solid #5d5d5d;
+}
+
 
 
 /* 댓글 부분 */
@@ -485,6 +525,7 @@ div.fr-popup.fr-desktop.fr-ltr.emoticons {
 #article-list > div:nth-child(3) {
 	background: #000000 !important ;
 }
+
 
 
  }
