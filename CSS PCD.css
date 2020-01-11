@@ -79,18 +79,29 @@ header #header-bar #header-top-notice strong.notice-badge {
     color: #fff;
 }
 
-
-
 /* 상단 검색창 */
-header #right-search-form>input[type=text] {
-    border: 2px solid #5d5d5d;
-    background: #151515;
- }
- 
-header #right-search-form>#right-search-btn {
-    color: #5d5d5d;
+#right-search-form > #right-search-btn>i {
+	color: #fff;
+	background: #5d5d5d;
+	border: 2px solid #5d5d5d;
 }
- 
+
+#right-search-form > #right-search-btn>i:hover {
+  background: #000;
+  color: #5d5d5d;
+}
+
+#right-search-form > #right-search-input {
+	border: 2px solid #5d5d5d;
+	background: #000;
+}
+
+#right-search-form:hover > #right-search-input,
+#right-search-form > #right-search-input:focus {
+	background: #000;
+	border: 2px solid #5d5d5d;
+	border-right: none;
+}
 
 
 /* 좌측 메뉴바 */
@@ -530,15 +541,6 @@ div.fr-popup.fr-desktop.fr-ltr.emoticons {
 #article-list > div:nth-child(3) {
 	background: #000000 !important ;
 }
-
-img[src="https://cdn.discordapp.com/attachments/659060358019022868/659072152523374592/Star1.png"] {
-    filter: grayscale(100%);
-}
-
-img[src="https://cdn.discordapp.com/attachments/659060358019022868/659072155031568422/star2.png"] {
-    filter: grayscale(100%);
-}
-
 
 
  }
