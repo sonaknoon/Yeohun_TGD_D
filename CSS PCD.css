@@ -531,6 +531,14 @@ div.fr-popup.fr-desktop.fr-ltr.emoticons {
 	background: #000000 !important ;
 }
 
+img[src="https://cdn.discordapp.com/attachments/659060358019022868/659072152523374592/Star1.png"] {
+    filter: grayscale(100%);
+}
+
+img[src="https://cdn.discordapp.com/attachments/659060358019022868/659072155031568422/star2.png"] {
+    filter: grayscale(100%);
+}
+
 
 
  }
