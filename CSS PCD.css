@@ -1,6 +1,6 @@
 /* ㅡㅡㅡㅡㅡ 코드 정리 중 ㅡㅡㅡㅡㅡ */
 
-@media (min-aspect-ratio:13/10) and (max-aspect-ratio:14/10), (prefers-color-scheme: dark) /* 기존값 (min-width:320px) and (max-width:1400px) */ 
+@media (min-aspect-ratio:14/10) and (max-aspect-ratio:15/10), (prefers-color-scheme: dark) /* 기존값 (min-width:320px) and (max-width:1400px) */ 
  {
     :root {
 	    /* 색상 */
@@ -11,7 +11,7 @@
 	    /* URL */
             --logoURL: url(https://cdn.discordapp.com/attachments/659060062223990812/659071409368203275/N_PC_nt.png); 
             --bannerurl: url(https://cdn.discordapp.com/attachments/659060204247318528/659368951247142953/caba19c4cebc98ed.png);
-	
+            --bannerurl2: url(https://cdn.discordapp.com/attachments/659060204247318528/669545388113395712/2.png);
 	    /* 기타 설정 */	
             --logoWidth: 320px;
             --before: "밤하늘에 늑대별 ";
@@ -170,6 +170,12 @@ header #header-bar #header-top-notice strong.notice-badge {
     color: #c7c7c7;
 }
 
+/* 프로필바 배너 */
+#board-info:after {
+    background: var(--bannerurl2) no-repeat;
+    border: 2px solid #5d5d5d;
+}
+
 
 
 
@@ -180,7 +186,23 @@ header #header-bar #header-top-notice strong.notice-badge {
     filter: grayscale(100%);
 }
 
+/* 공지글 커스텀 부분 */
+#article-list>.article-list-row.notice>div>div.list-title>span>i:before {
+    color: #fff;
+    background: #5d5d5d;
+    border: 2px solid #5d5d5d;
+}
 
+#article-list>.article-list-row.notice>.item>.list-header>strong:after, 
+#article-list>.article-list-row.notice>.item>.list-header>b:after {
+    color: #5d5d5d;
+}
+
+#article-list>.article-list-row.notice>.item>.list-time {
+    background: #5d5d5d;
+    color: #fff;
+    border: 1px solid #5d5d5d;
+}
 
 /* 게시글 목록 */
 .frame>.frame, #article-list {
