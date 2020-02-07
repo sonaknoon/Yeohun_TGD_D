@@ -327,10 +327,17 @@ span.a-badge i.fa.fa-info-circle {
     border-color: #5d5d5d;
     background: #303030;
 }
- 
+
+/* 버튼 */
 .btn {
 	background-color: #000 !important;
     border-color: #5d5d5d !important;
+}
+
+.btn:hover,
+.btn:focus {
+	color: #000 !important;
+	background-color: #fff !important;
 }
 
 .input-group-btn:last-child>.btn,
@@ -474,7 +481,38 @@ element.style {
 	background:#000;
 }
 
+/* 글 작성 폼 */
 
+/* 이미지 업로드 영역 */
+#image-upload-btn:hover {
+	border-right: 1px solid #5d5d5d !important;
+}
+
+#dropZone {
+    padding: 0 0;
+    margin-top: 7px;
+    border: 1px solid #5d5d5d;
+    background: #151515 !important;
+    margin-bottom: 40px;
+}
+
+/* 글쓰기 영역 input 색상*/
+.form-control {
+    color: #ccc;
+    background-color: #151515;
+    border: 1px solid #5d5d5d;
+}
+
+/* 제목 색상 영역 */
+.input-group-addon:last-child {
+    background: #5d5d5d;
+    border: 1px solid #5d5d5d;
+}
+
+/* 이모티콘 영역 배경 */
+#articleWriteForm > div:nth-child(4) > div > div.fr-toolbar.fr-ltr.fr-desktop.fr-top.fr-basic.fr-sticky-off > div.fr-popup.fr-desktop.fr-ltr.emoticons {
+	background: #000;
+}
 
 /* 댓글 작성 폼 */
 .fr-toolbar {
