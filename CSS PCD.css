@@ -1,6 +1,6 @@
 /* ㅡㅡㅡㅡㅡ 코드 정리 중 ㅡㅡㅡㅡㅡ */
 
-@media (min-aspect-ratio:14/10) and (max-aspect-ratio:15/10), (prefers-color-scheme: dark) /* 기존값 (min-width:320px) and (max-width:1400px) */ 
+@media (min-aspect-ratio:1500/1000) and (max-aspect-ratio:1550/1000), (prefers-color-scheme: dark) /* 기존값 (min-width:320px) and (max-width:1400px) */ 
  {
     :root {
 	    /* 색상 */
