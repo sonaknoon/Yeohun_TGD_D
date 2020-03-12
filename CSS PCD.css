@@ -1,4 +1,6 @@
-/* ㅡㅡㅡㅡㅡ 코드 정리 중 ㅡㅡㅡㅡㅡ */
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ 주석 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+/* 업데이트 : 2020.02.27 완료 */
+/* 노트패드 : 최적화 예정 */
 
 @media (min-aspect-ratio:1500/1000) and (max-aspect-ratio:1550/1000), (prefers-color-scheme: dark) /* 기존값 (min-width:320px) and (max-width:1400px) */ 
  {
@@ -12,7 +14,8 @@
             --logoURL: url(https://cdn.discordapp.com/attachments/659060062223990812/659071409368203275/N_PC_nt.png); 
             --bannerurl: url(https://cdn.discordapp.com/attachments/659060204247318528/659368951247142953/caba19c4cebc98ed.png);
             --bannerurl2: url(https://cdn.discordapp.com/attachments/659060204247318528/671368553261301760/0f87bbfea3f91c67.gif);
-	    /* 기타 설정 */	
+        
+        /* 기타 설정 */	
             --logoWidth: 320px;
             --before: "밤하늘에 늑대별 ";
             --after: "개";
