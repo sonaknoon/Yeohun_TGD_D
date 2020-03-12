@@ -21,6 +21,12 @@
             --after: "개";
 }
 
+/* 백그라운드 별 애니메이션 (다크모드용) */
+body {
+    background-image: /* 백그라운드 애니메이션 소스 임포트 */
+     url(https://cdn.discordapp.com/attachments/659060358019022868/687699973088870569/WStar1.png), 
+     url(https://cdn.discordapp.com/attachments/659060358019022868/687699973810290703/WStar2.png);
+}
 
 /* 상단바 */
 header #header-bar>.row {
