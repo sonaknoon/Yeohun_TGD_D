@@ -21,6 +21,12 @@
             --after: "개";
 }
 
+/* 배경색 강제 다크화 */
+html {
+    background-color: var(--bgColor);
+    background-image: none;
+}
+
 /* 백그라운드 별 애니메이션 (다크모드용) */
 body {
     background-image: /* 백그라운드 애니메이션 소스 임포트 */
