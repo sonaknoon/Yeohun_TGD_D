@@ -22,8 +22,8 @@
 }
 
 /* 배경색 강제 다크화 */
-html {
-    background-color: var(--bgColor);
+body {
+    background-color: var(--bgColor) !important;
     background-image: none;
 }
 
@@ -31,7 +31,7 @@ html {
 body {
     background-image: /* 백그라운드 애니메이션 소스 임포트 */
      url(https://cdn.discordapp.com/attachments/659060358019022868/687699973088870569/WStar1.png), 
-     url(https://cdn.discordapp.com/attachments/659060358019022868/687699973810290703/WStar2.png);
+     url(https://cdn.discordapp.com/attachments/659060358019022868/687699973810290703/WStar2.png) !important;
 }
 
 /* 상단바 */
@@ -214,9 +214,9 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 #article-list>.article-list-row.notice>.item>.list-time {
-    background: #5d5d5d;
-    color: #fff;
-    border: 1px solid #5d5d5d;
+    background: #5d5d5d !important;
+    color: #fff !important;
+    border: 1px solid #5d5d5d !important;
 }
 
 /* 게시글 목록 */
@@ -601,7 +601,7 @@ div.fr-popup.fr-desktop.fr-ltr.emoticons {
 
 /* 점프버튼 */
 #movetotop {
-    filter: grayscale(1);
+    filter: grayscale(1) !important;
 }
 
 
